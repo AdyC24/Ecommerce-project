@@ -50,6 +50,19 @@ p {
     margin: 40px 0;
 }
 
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 /* costum css design  */
 /* Header */
 
@@ -264,4 +277,37 @@ p {
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #088178;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color:#ffffff;
+    font-size: 16px;
+}
+
+#banner h2 {
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+#banner h2 span {
+    color: #ef3636;
+}
+
+#banner button:hover {
+    background-color: #088178;
+    color: #fff;
 }
