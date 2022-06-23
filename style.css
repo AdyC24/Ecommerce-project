@@ -50,7 +50,7 @@ p {
     margin: 40px 0;
 }
 
-button.normal {
+.normal {
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
@@ -117,6 +117,7 @@ button.white {
 #navbar li a.active {
     color: #088178;
 }
+
 
 #navbar li a.active::after,
 #navbar li a:hover::after {
@@ -343,7 +344,10 @@ button.white {
     background-position: center;
     padding: 30px;
     border-radius: 10px;
-    
+}
+
+#sm-banner .banner-box2 {
+    background-color: #304d35;
 }
 
 #sm-banner h4 {
@@ -368,4 +372,96 @@ button.white {
 #sm-banner .banner-box:hover button {
     background: #088178;
     border: 1px solid #088178;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    flex-wrap: wrap;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(69, 55, 55);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#banner3 .banner-box2 {
+    background-color: #088178;
+}
+
+#banner3 .banner-box3 {
+    background-color: #4b817d;
+}
+
+#banner3 h2 {
+    color:#fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color:#ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#newsletter {
+    background-color: #489bf3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-position: 20% 30px;
+    background-repeat: no-repeat;
+}
+
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span {
+    color: #ffbd27;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-left: 4px;
+    outline: none;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
